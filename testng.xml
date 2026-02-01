@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="packagename.SampleMavenProject.TestCase5_SearchProductWithoutLogin"/>
+      <class name="packagename.SampleMavenProject.TestCase1_HomePage"/>
+       <class name="packagename.SampleMavenProject.TestCase2_LoginToAmazonAndSearchPRoduct"/>
+      <class name="packagename.SampleMavenProject.TestCase3_ClickOnnSearchResult"/>
+      <class name="packagename.SampleMavenProject.TestCase4_AddToCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

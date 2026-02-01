@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="packagename.SampleMavenProject.TestCase3_ClickOnnSearchResult">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="ClickOnResultProduct"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- packagename.SampleMavenProject.TestCase3_ClickOnnSearchResult -->
+      <class name="packagename.SampleMavenProject.TestCase1_HomePage">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="withValidCredentials"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- packagename.SampleMavenProject.TestCase1_HomePage -->
+      <class name="packagename.SampleMavenProject.TestCase2_LoginToAmazonAndSearchPRoduct">
+        <methods>
+          <include name="LoginAndSearchPRoduct"/>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- packagename.SampleMavenProject.TestCase2_LoginToAmazonAndSearchPRoduct -->
+      <class name="packagename.SampleMavenProject.TestCase4_AddToCart">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="addProductToCart"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- packagename.SampleMavenProject.TestCase4_AddToCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
