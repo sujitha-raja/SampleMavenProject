@@ -3,6 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="packagename.SampleMavenProject.TestCase5_SearchProductWithoutLogin">
+        <methods>
+          <include name="searchProductWithoutLogin"/>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- packagename.SampleMavenProject.TestCase5_SearchProductWithoutLogin -->
       <class name="packagename.SampleMavenProject.TestCase3_ClickOnnSearchResult">
         <methods>
           <include name="launchBrowser"/>

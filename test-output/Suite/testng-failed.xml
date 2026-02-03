@@ -3,27 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="packagename.SampleMavenProject.TestCase4_AddToCart">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="addProductToCart"/>
-          <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- packagename.SampleMavenProject.TestCase4_AddToCart -->
-      <class name="packagename.SampleMavenProject.TestCase2_LoginToAmazonAndSearchPRoduct">
-        <methods>
-          <include name="LoginAndSearchPRoduct"/>
-          <include name="launchBrowser"/>
-          <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- packagename.SampleMavenProject.TestCase2_LoginToAmazonAndSearchPRoduct -->
-      <class name="packagename.SampleMavenProject.TestCase3_ClickOnnSearchResult">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="ClickOnResultProduct"/>
-          <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- packagename.SampleMavenProject.TestCase3_ClickOnnSearchResult -->
       <class name="packagename.SampleMavenProject.TestCase5_SearchProductWithoutLogin">
         <methods>
           <include name="searchProductWithoutLogin"/>
